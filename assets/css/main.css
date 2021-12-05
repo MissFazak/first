@@ -1,14 +1,59 @@
-body{
-    margin: 0 10%;
+body {
+  margin: 3% 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-h1{
-    color: red;
+h1 {
+  color: red;
 }
 
-.line{
-    height: 10px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: red;
+h2 {
+    margin: 4% 0;
+}
+
+body p:nth-of-type(1) {
+  font-size: 14px;
+}
+body p:nth-of-type(2) {
+  font-size: 14px;
+}
+
+.line {
+  height: 10px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: red;
+}
+.pic img {
+  width: 270px;
+}
+
+.picpic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  width: 270px;
+  height: 330px;
+  background-color: rgb(238, 234, 234);
+}
+
+.picpic:nth-of-type(1){
+    margin-right: 7%;
+}
+.picpic:nth-of-type(2){
+    margin-right: 7%;
+}
+
+.picpic h3 {
+  padding: 0 3%;
+}
+
+.picpic p:nth-of-type(1) {
+  padding: 0 3%;
+  font-size: 12px;
+  color: rgb(194, 191, 191);
+}
+.picpic p:nth-of-type(2) {
+  padding: 0 3%;
+  font-size: 12px;
+  /* color: rgb(194, 191, 191); */
 }
